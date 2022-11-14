@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.intro h1.title {
+  margin-bottom: 8px;
+  font-size: 4em;
+}
+
+span {
+  color: rgba(242, 93, 93, 0.952);
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+}
+
+.scroller {
+  height: 4.8em;
+  line-height: 4.8em;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scroller > h1 {
+  position: absolute;
+  top: 0;
+  animation: slide 3s forwards;
+}
+
+@keyframes slide {
+  0% {
+    top: 0em;
+  }
+
+  33% {
+    top: -1.2em;
+  }
+
+  66% {
+    top: -2.4em;
+  }
+
+  100% {
+    top: -3.6em;
+  }
+}
+
+.intro .subtitle {
+  margin-bottom: 24px;
+}
+
+.intro .support {
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.intro .subtitle {
+  color: rgba(222, 38, 38, 0.952);
+  transition: 0.25s;
+}
+
+.intro img {
+  width: 400px;
+  max-width: 100%;
+}
+
+#about {
+  background-color: #f0ddde;
+}
+
+.about .support {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.about p.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--font-sea-color);
+  transition: 0.25s;
+}
+
+.about ul {
+  margin-bottom: 30px;
+}
+
+.about ul li {
+  margin-bottom: 15px;
+}
+
+.about img {
+  width: 380px;
+  max-width: 100%;
+}
+
+.about .cta a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.skills ul li {
+  margin-bottom: 15px;
+}
+
+.skills img {
+  width: 6rem;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.skills p {
+  font-weight: 700;
+}
+
+#projects {
+  background-color: #f0ddde;
+}
+
+#projects h5 {
+  margin: 10px 0;
+}
+
+#projects li {
+  margin-top: 16px;
+}
+
+.card img {
+  max-height: 160px;
+}
+
+footer {
+  background-color: #f84c54;
+  color: white;
+}
+
+footer .social-media a {
+  margin-left: 8px;
+  margin-right: 6px;
+}
+
+footer .social-media a img {
+  width: 32px;
+  max-width: 100%;
+}
