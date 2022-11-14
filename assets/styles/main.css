@@ -134,6 +134,10 @@ span {
   max-height: 160px;
 }
 
+.card {
+  max-width: 350px;
+}
+
 footer {
   background-color: #f84c54;
   color: white;

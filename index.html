@@ -4,9 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portofolio | Rayhan</title>
+    <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- Link Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- Link Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <!-- Link AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Link Local CSS & Icon -->
     <link rel="stylesheet" href="./assets/styles/main.css" />
     <link rel="icon" href="./assets/images/logo.jpeg" />
   </head>
@@ -14,11 +20,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f84c54">
       <div class="container">
-        <a class="navbar-brand" href="#">R</a>
+        <a class="navbar-brand" href="#" data-aos="zoom-out-right" data-aos-mirror="false">R</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-out-left" data-aos-mirror="false">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item pe-3">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -43,8 +49,8 @@
     <!-- Intro -->
     <section class="intro">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f84c54" fill-opacity="1" d="M0,192L360,128L720,128L1080,224L1440,256L1440,0L1080,0L720,0L360,0L0,0Z"></path></svg>
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
+      <div class="container" data-aos="zoom-in">
+        <div class="row justify-content-center align-items-center mt-5">
           <div class="col-lg-6 col-md-12">
             <div class="scroller-wrapper">
               <div class="scroller">
@@ -59,28 +65,35 @@
             <h3 class="subtitle"><b>Front-End Web Beginner</b></h3>
             <p class="support"><b>From beginner to expert</b>. I am a front-end web beginner who enjoy design and develop website. I'm still studying basic to intermediate and will continue to study until expert.</p>
             <div class="cta mb-5">
-              <a href="#">
+              <a href="https://linkray.netlify.app/">
                 <button class="btn btn-outline-danger">Find more about me.</button>
               </a>
             </div>
           </div>
           <div class="col text-center d-none d-lg-block">
-            <img class="rounded-circle" src="./assets/images/foto.png" alt="Rayhan Intro" />
+            <img class="rounded-circle" src="./assets/images/foto.png" alt="Rayhan Intro" data-tilt />
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f0ddde" fill-opacity="1" d="M0,128L360,32L720,96L1080,96L1440,192L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Intro -->
+    <!-- Scroll To Top -->
+    <div class="fixed-bottom text-end m-5">
+      <a href="#">
+        <button type="button" class="btn btn-outline-danger"><i class="bi bi-chevron-up"></i></button>
+      </a>
+    </div>
+    <!-- Akhir Scroll To Top -->
     <!-- About -->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row text-center mb-4">
           <h2 class="mt-5">About <span>Me</span></h2>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-6 col-md-12 mb-5 text-center">
-            <img class="rounded-circle" src="./assets/images/foto-2.png" alt="Rayhan About" />
+            <img class="rounded-circle" src="./assets/images/foto-2.png" alt="Rayhan About" data-tilt />
           </div>
           <div class="col">
             <p class="support">Hi! I'm Rayhan, a Front-End Web learner based in Indonesia. I've been interested in Web Development since February 2022. I'm looking for opportunities in Front-End Web Development.</p>
@@ -104,67 +117,67 @@
     <!-- Skills -->
     <section class="skills" id="skills">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4" data-aos="zoom-in">
           <h2 class="mt-5"><span>My</span> Skills</h2>
         </div>
         <div class="row justify-content-center align-items-center">
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" data-tilt />
             <p>JavaScript</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" data-tilt />
             <p>NodeJS</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" data-tilt />
             <p>Git</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" data-tilt />
             <p>PHP</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" data-tilt />
             <p>Python</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" data-tilt />
             <p>Laravel</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" data-tilt />
             <p>React</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" data-tilt />
             <p>Next.js</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" data-tilt />
             <p>MySQL</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" data-tilt />
             <p>Dart</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" />
-            <p>Canva</p>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" data-tilt />
+            <p>Bootstrap</p>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" />
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-5 p-5 text-center" data-aos="zoom-in">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" data-tilt />
             <p>Wordpress</p>
           </div>
         </div>
@@ -175,11 +188,11 @@
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row mb-4 text-center">
+        <div class="row mb-4 text-center" data-aos="zoom-in">
           <h2 class="mt-5 mb-4"><span>My</span> Projects</h2>
         </div>
         <div class="row m-auto">
-          <div class="col-lg-4 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p1.jpeg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -207,7 +220,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p2.jpeg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
@@ -235,7 +248,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p3.jpeg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
@@ -263,7 +276,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p4.jpeg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
@@ -291,7 +304,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p5.jpeg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -319,7 +332,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p6.png" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -347,7 +360,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p7.jpeg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -375,7 +388,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p8.jpeg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -403,7 +416,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4">
+          <div class="col-lg-4 col-md-12 d-flex align-items-stretch mb-4 justify-content-center" data-aos="zoom-in">
             <div class="card shadow-lg">
               <img src="./assets/images/p9.jpeg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
@@ -414,7 +427,7 @@
                   <li>Self study Front-End Web for portofolio need.</li>
                 </ul>
                 <div class="text-center">
-                  <a href="https://muhammadrayhanr.github.io/linktree-clone/" target="_blank">
+                  <a href="https://linkray.netlify.app/" target="_blank">
                     <button class="btn btn-block btn-outline-danger mt-5 mb-3 ps-4 pe-4">
                       <i class="fas fa-globe-asia"></i>
                     </button>
@@ -438,7 +451,7 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row text-center mb-4">
           <h2 class="mt-5">Contact <span>Me</span></h2>
         </div>
@@ -489,8 +502,24 @@
     </footer>
     <!-- Akhir Footer -->
 
+    <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Akhir Script Bootstrap -->
 
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        mirror: true,
+      });
+    </script>
+    <!-- Akhir Script AOS -->
+
+    <!-- Script Tilt.js -->
+    <script type="text/javascript" src="./assets/styles/vanilla-tilt.min.js"></script>
+    <!-- Akhir Script Tilt.js -->
+
+    <!-- Script Contact Form -->
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxP0Bx0FVlXts2gGzc65qJ4xPHlM-8tirFLozU4ztVBnR447psM3T_i1x4iMCfvDj-J/exec";
       const form = document.forms["submit-to-google-sheet"];
@@ -520,5 +549,6 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <!-- Akhir Script Contact Form -->
   </body>
 </html>
